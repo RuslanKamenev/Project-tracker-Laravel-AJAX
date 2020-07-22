@@ -26,6 +26,7 @@ class TasksController extends Controller
     public function create(Request $request)
     {
         $projectId = $request->input()['projectId'];
+
         return view('task.create', compact('projectId'));
     }
 

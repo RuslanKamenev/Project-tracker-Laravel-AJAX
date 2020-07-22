@@ -404,7 +404,7 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! G:\HTML\Progi\OpenServer\OpenServer\domains\TestWork\resources\js\ajax.js */"./resources/js/ajax.js");
+module.exports = __webpack_require__(/*! G:\HTML\Progi\OpenServer\OpenServer\domains\ProjectTracker\resources\js\ajax.js */"./resources/js/ajax.js");
 
 
 /***/ })

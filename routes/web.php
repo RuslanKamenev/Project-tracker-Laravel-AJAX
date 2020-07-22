@@ -19,14 +19,15 @@ Route::get('/', function () {
 
 Auth::routes();
 
+//Пути для работы постами
 Route::get('/', 'ProjectsController@index');
 Route::post('/', 'ProjectsController@store');
-
 Route::get('/create', 'ProjectsController@create');
 Route::get('{id}', 'ProjectsController@show');
 Route::put('{id}', 'ProjectsController@update');
 Route::delete('{id}', 'ProjectsController@destroy');
 Route::get('{id}/edit', 'ProjectsController@edit');
 
+//Пути для рботы с задачами
 $methods = ['index', 'store', 'edit', 'update', 'create', 'destroy'];
 Route::resource('/tasks', 'TasksController')->only($methods);
