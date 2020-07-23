@@ -20,6 +20,7 @@ Route::get('/', function () {
 Auth::routes();
 
 //Пути для работы постами
+Route::get('/home', 'ProjectsController@index');
 Route::get('/', 'ProjectsController@index');
 Route::post('/', 'ProjectsController@store');
 Route::get('/create', 'ProjectsController@create');
