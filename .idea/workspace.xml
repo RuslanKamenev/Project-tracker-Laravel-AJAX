@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="381f479d-8eae-4fcf-b347-6669c7c278be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="381f479d-8eae-4fcf-b347-6669c7c278be" name="Default Changelist" comment="Bug fix with">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_16_203811_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_16_203811_create_projects_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_07_19_182811_create_tasks_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_07_19_182811_create_tasks_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +198,7 @@
       <workItem from="1595349974798" duration="11174000" />
       <workItem from="1595419447307" duration="14044000" />
       <workItem from="1595451805308" duration="1074000" />
-      <workItem from="1595492088918" duration="1779000" />
+      <workItem from="1595492088918" duration="4043000" />
     </task>
     <task id="LOCAL-00001" summary="format changes">
       <created>1595452824861</created>
@@ -219,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595493136306</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DataBase changes for Heroku">
+      <created>1595494319327</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595494319327</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Heroku settings">
+      <created>1595494687297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1595494687297</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +258,8 @@
     <MESSAGE value="format changes" />
     <MESSAGE value="composer update for Heroku" />
     <MESSAGE value="Procfile for Heroku commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Procfile for Heroku commit" />
+    <MESSAGE value="DataBase changes for Heroku" />
+    <MESSAGE value="Heroku settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Heroku settings" />
   </component>
 </project>
